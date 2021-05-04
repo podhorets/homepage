@@ -5,7 +5,7 @@
 This website is a resume for one very specific person - ([Donald Trump](https://en.wikipedia.org/wiki/Donald_Trump)).
 
 # Preview
-![Image alt](./assets/image/preview.jpg)
+![Image alt](./assets/image/preview.JPG)
 
 # Links
  On ([GitHub](https://podhorets.github.io/homepage/))
