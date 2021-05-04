@@ -4,11 +4,20 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
   </head>
   <body>
+    <dialog id="president">
+      <a href="#resume" title="Hide trump photo" class="close">Close</a>
+      <div class="photos">
+        <noscript>
+          <img src="./assets/image/trump_president.jpg" alt="user detected">
+        </noscript>
+      </div>
+    </dialog>
     <main>
       <article>
-        <div class="page" style="border-color: midnightblue;">
+        <div class="page" style="border-color: brown;">
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
@@ -62,22 +71,173 @@
             </div>
             <div class="row">
               <div class="ten wide column">
-                <!-- Experience -->
+                <section>
+                  <h3>EXPERIENCE</h3>
+                  <ul>
+                    <li class="details">
+                        <h5>2017</h5>
+                        <p>Became 45th president of the United States</p>
+                        <h5>2016</h5>
+                        <p>Won election race with 77 votes more than Clinton, yippe-kee-yay!</p>
+                        <input type="checkbox" id="experience">
+                        <label for="experience" class="summary">
+                          <i>more about experience</i>
+                        </label>
+                      <div>
+                        <ul class="dropdown-block">
+                          <h5>2015</h5>
+                          <p>Became the most important Republican nominating for presidential election run</p>
+                          <h5>2009</h5>
+                          <p>Changed my mind and became Republican again</p>
+                          <h5>2005</h5>
+                          <p>Started Trump University with Michael Sexton and Jonathan Spitalny: no grades, certificates and other bureaucracy, but program offered courses in real estate, asset management entrepreneurship, and wealth creation. 98% students gave positive reviews while studying, however some of these ungrateful gringos filed lawsuits against Trump University after the course. I had to pay $25 million to settle that...</p>
+                          <h5>2002</h5>
+                          <p>Acquired the former Hotel Delmonico, which was renovated and reopened in 2004 as the Trump Park Avenue. I sure do like my surname!</p>
+                          <h5>2001</h5>
+                          <p>Completed Trump World Tower and joined the Democratic Party</p>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+                <section>    
+                  <h3>MEDIA CAREER</h3>
+                  <ul>
+                    <li class="details">
+                        <h5>2019</h5>
+                        <p>Was awarded Worst Actor and Worst Screen Combo at Golden Raspberry Awards for parts in "Death of a Nation" and "Fahrenheit 11/9"</p>
+                        <h5>2015</h5>
+                        <p>Published a book "Crippled America: How to Make America Great Again"</p>
+                        <input type="checkbox" id="media">
+                        <label for="media" class="summary">
+                          <i>more about media career</i>
+                        </label>
+                      <div>
+                        <ul class="dropdown-block">
+                          <h5>2011</h5>
+                          <p>Published a book "Time to Get Tough: Making America #1 Again" in coauthorship with Wynton Hall, Peter Schweizer and Meredith McIver</p>
+                          <h5>2011</h5>
+                          <p>Published a book "Midas Touch: Why Some Entrepreneurs Get Rich – And Why Most Don't" in coauthorship with Robert Kiyosaki</p>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+                <section>
+                  <h3>EDUCATION</h3>
+                  <ul>
+                    <li class="details">
+                        <h5>2011</h5>
+                        <p>Asked friends who are prominent and wealthy alumni of the New York Military Academy to secure my academic records so they could not be seen by anyone, never!</p>
+                        <h5>1966</h5>
+                        <p>Transferred to the Wharton School of the University of Pennsylvania and graduated in May 1968 with a B.S. in economics</p>
+                        <input type="checkbox" id="education">
+                        <label for="education" class="summary">
+                          <i>more about education</i>
+                        </label>
+                      <div>
+                        <ul class="dropdown-block">
+                          <h5>1964</h5>
+                          <p>Started studying in Fordham University</p>
+                          <h5>1959</h5>
+                          <p>Enrolled in the New York Military Academy, a private boarding school, after my parents discovered I made frequent trips into Manhattan without their permission</p>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+                <li>
+                  <a id="resume" href="#president" title="Show president photo">
+                    <br><br><strong>click here if you think that Donald Trump is still the President of United States</strong>
+                  </a>
+                </li>
               </div>
               <div class="six wide column">
-                <!-- Languages -->
-                <!-- Skills -->
-                <!-- Character -->
-                <!-- Likes -->
-                <!-- Dislikes -->
-                <!-- Wants -->
-                <!-- Education -->
-                <!-- Articles -->
+                <section>
+                  <h3>Languages</h3>
+                  <p class="tags small">
+                    <a hreflang="uk" rel="alternate" class="language" lang="uk">🇺🇦
+                      <span class="lang">УКРАЇНСЬКА</span>
+                      <span class="hide">Translation is not available yet</span>
+                    </a> 
+                    <a hreflang="ru" rel="alternate" class="language" lang="ru">🇷🇺
+                      <span class="lang">РУССКИЙ</span>
+                      <span class="hide">Translation is not available yet</span>
+                    </a>
+                    <span class="language" lang="en">🇺🇸 ENGLISH</span>
+                  </p>
+                </section>
+                <section>
+                  <h3>Skills</h3>
+                  <p class="tags small">NEGOTIATING COUNTING REMODELING WRITING ACING SINGING REPORTING INCORPORATING SELLING ADVERTISING HOSTING COMPETING TWITTING PARENTING GAMBLING DATING SUING ORGANIZING FUNDING DEBATING ADVISING PRESBYTERIANING</p>
+                </section>
+                <section>
+                  <h3>Character</h3>
+                  <p class="tags small">ADJUSTED CALM AMBITIOUS COMPETITIVE SOCIABLE DIRECT HOSTILE CARELESS IGNORANT INQUISITIVE BOLD CONFIDENT MISCHIEVOUS CHARMING INTERESTING DARING COLORFUL LAZY SELF-PROMOTING</p>
+                </section>
+                <section>
+                  <h3>Likes&#x1f603;</h3>
+                  <p class="tags small">
+                    <a href="https://www.youtube.com/watch?v=u_aLESDql1U" rel="external">BILLIONS</a>
+                    FILET-O-FISH BIG MAC 
+                    <a href="https://www.youtube.com/watch?v=RDrfE9I8_hs" rel="external">CHINA</a> 
+                    QUARTER POUNDER DIET COKE TARIFFS BIBLE ARTOF DEAL PATRIOTS BEAUTIFUL MODELS GOLD REAL ESTATE WAR PROTESTERS CONSTRUCTION RUSSIANS BANKS SPORTS WOMEN MEXICO RED HAT KOREANS GOLF EVERYBODY
+                    <button id="darkslateblue" class="color darkslateblue">DARK BLUE</button>
+                  </p>
+                </section>
+                <section>
+                  <h3>Dislikes&#x1f61e;</h3>
+                  <p class="tags small">
+                  DOGS MEDIA CNN GERMANS MEXICANS IMMIGRANTS SHITHOLE COUNTRIES UNATTRACTIVE WOMEN BLACKS SUSHI HOT-DOGS ALCOHOL FRUIT CHRISTMAS PARTIES LIBERALS
+                  <button id="brown" class="color brown">BROWN</button>
+                  </p>
+                </section>
+                <section>
+                  <h3>Wants&#x1f97a;</h3>
+                  <p class="tags small bulleted">
+                    BE HEALTHY GROW A TREE BUILD TRUMP AIRPORT HAVE A TASTE DO A HARLEM SHAKE IN CONGRESS TO GOLF MORE OFTEN WIN ALL THE COURT SUITS
+                </section>
               </div>
             </div>
           </div>
         </div>
       </article>
     </main>
+    <audio class="audio" controls="controls" autoplay="autoplay">
+      <source src="./assets/sounds/hello-everyone.mp3" type="audio/mp3">
+    </audio>
+    <script>
+      function switchToColor(color) {
+			  try {
+			  	document.querySelectorAll(".page").forEach(function(page) {
+			  		page.style.borderColor = color;
+			  	});
+			  	document.querySelectorAll(".avatar").forEach(function(avatar) {
+			  		avatar.contentDocument.getElementById("circle").setAttribute("fill", color);
+			  	});
+			  } catch (error) {}
+		  }
+      document.getElementById("darkslateblue").addEventListener("click", switchToColor.bind(this, "darkslateblue"));
+      document.getElementById("brown").addEventListener("click", switchToColor.bind(this, "brown"));
+      function replaceNoscript(noscript) {
+			  var parent = noscript.parentElement;
+			  Array.prototype.slice.call((new DOMParser()).parseFromString(noscript.textContent, "text/html").body.children).forEach(function(element) {
+			  	parent.insertBefore(element, noscript);
+			  });
+			  parent.removeChild(noscript);
+		  }
+      function callFuncOnCollection(collection, func) {
+			  Array.prototype.slice.call(collection).map(function (item) {
+			  	func(item);
+			  });
+		  }
+		  var childhoodPhotos = document.getElementById("president").getElementsByClassName("photos")[0];
+		  document.getElementById("resume").addEventListener("click", function() {
+		  	callFuncOnCollection(childhoodPhotos.getElementsByTagName("NOSCRIPT"), replaceNoscript);
+		  });
+		  if (window.location.hash === "#president") {
+		  	callFuncOnCollection(childhoodPhotos.getElementsByTagName("NOSCRIPT"), replaceNoscript);
+		  }
+    </script>
   </body>
 </html>
