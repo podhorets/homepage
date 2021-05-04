@@ -3,8 +3,241 @@
   <head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <dialog id="president">
+      <a href="#resume" title="Hide trump photo" class="close">Close</a>
+      <div class="photos">
+        <noscript>
+          <img src="./assets/image/trump_president.jpg" alt="user detected">
+        </noscript>
+      </div>
+    </dialog>
+    <main>
+      <article>
+        <div class="page" style="border-color: brown;">
+          <div class="stackable grid">
+            <div class="row">
+              <div class="three wide center aligned column">
+                <img src="https://th.bing.com/th?q=Donald+Trump+Funny+Drawing&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.25&pid=InlineBlock&mkt=de-DE&adlt=moderate&t=1&mw=247" alt='Avatar'/>              </div>
+              <div class="thirteen wide column">
+                <div class="stackable grid">
+                  <div class="sixteen wide column">
+                    <h1 class="name">DONALD TRUMP</h1>
+                    <div class="job">Ex-President of USA</div>
+                    <ul class="contacts">
+                      <li>
+                        <a href="https://www.fb.com/DonaldTrump" rel="author" class="facebook">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
+                          <span>DonaldTrump</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mailto:realDonaldTrump@whitehouse.gov" rel="author" class="mail">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+                          <span>realDonaldTrump@whitehouse.gov</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/realDonaldTrump/" rel="author" class="instagram">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                        <span>realDonaldTrump</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/realDonaldTrump" rel="author" class="twitter">
+                        <img src="https://img.icons8.com/metro/16/000000/twitter.png" alt='Twitter'/>                          
+                        <span>realDonaldTrump</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="sixteen wide mobile only column">
+                    <div class="divider"></div>
+                  </div>
+                  <div class="sixteen wide column">
+                    <h2>Resume</h2>
+                    <p>― I'm the most successful person ever to run for the presidency, by far. Nobody's ever been more successful than me. I'm the most successful person ever to run. Ross Perot isn't successful like me. Romney ― I have a Gucci store that's worth more than Romney. Sorry losers and haters, but my IQ is one of the highest ― and you all know it! Please don't feel so stupid or insecure, it's not your fault.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide column">
+                <div class="fat divider"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="ten wide column">
+                <section>
+                  <h3>EXPERIENCE</h3>
+                  <ul>
+                    <li class="details">
+                        <h5>2017</h5>
+                        <p>Became 45th president of the United States</p>
+                        <h5>2016</h5>
+                        <p>Won election race with 77 votes more than Clinton, yippe-kee-yay!</p>
+                        <input type="checkbox" id="experience">
+                        <label for="experience" class="summary">
+                          <i>more about experience</i>
+                        </label>
+                      <div>
+                        <ul class="dropdown-block">
+                          <h5>2015</h5>
+                          <p>Became the most important Republican nominating for presidential election run</p>
+                          <h5>2009</h5>
+                          <p>Changed my mind and became Republican again</p>
+                          <h5>2005</h5>
+                          <p>Started Trump University with Michael Sexton and Jonathan Spitalny: no grades, certificates and other bureaucracy, but program offered courses in real estate, asset management entrepreneurship, and wealth creation. 98% students gave positive reviews while studying, however some of these ungrateful gringos filed lawsuits against Trump University after the course. I had to pay $25 million to settle that...</p>
+                          <h5>2002</h5>
+                          <p>Acquired the former Hotel Delmonico, which was renovated and reopened in 2004 as the Trump Park Avenue. I sure do like my surname!</p>
+                          <h5>2001</h5>
+                          <p>Completed Trump World Tower and joined the Democratic Party</p>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+                <section>    
+                  <h3>MEDIA CAREER</h3>
+                  <ul>
+                    <li class="details">
+                        <h5>2019</h5>
+                        <p>Was awarded Worst Actor and Worst Screen Combo at Golden Raspberry Awards for parts in "Death of a Nation" and "Fahrenheit 11/9"</p>
+                        <h5>2015</h5>
+                        <p>Published a book "Crippled America: How to Make America Great Again"</p>
+                        <input type="checkbox" id="media">
+                        <label for="media" class="summary">
+                          <i>more about media career</i>
+                        </label>
+                      <div>
+                        <ul class="dropdown-block">
+                          <h5>2011</h5>
+                          <p>Published a book "Time to Get Tough: Making America #1 Again" in coauthorship with Wynton Hall, Peter Schweizer and Meredith McIver</p>
+                          <h5>2011</h5>
+                          <p>Published a book "Midas Touch: Why Some Entrepreneurs Get Rich – And Why Most Don't" in coauthorship with Robert Kiyosaki</p>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+                <section>
+                  <h3>EDUCATION</h3>
+                  <ul>
+                    <li class="details">
+                        <h5>2011</h5>
+                        <p>Asked friends who are prominent and wealthy alumni of the New York Military Academy to secure my academic records so they could not be seen by anyone, never!</p>
+                        <h5>1966</h5>
+                        <p>Transferred to the Wharton School of the University of Pennsylvania and graduated in May 1968 with a B.S. in economics</p>
+                        <input type="checkbox" id="education">
+                        <label for="education" class="summary">
+                          <i>more about education</i>
+                        </label>
+                      <div>
+                        <ul class="dropdown-block">
+                          <h5>1964</h5>
+                          <p>Started studying in Fordham University</p>
+                          <h5>1959</h5>
+                          <p>Enrolled in the New York Military Academy, a private boarding school, after my parents discovered I made frequent trips into Manhattan without their permission</p>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+                <li>
+                  <a id="resume" href="#president" title="Show president photo">
+                    <br><br><strong>click here if you think that Donald Trump is still the President of United States</strong>
+                  </a>
+                </li>
+              </div>
+              <div class="six wide column">
+                <section>
+                  <h3>Languages</h3>
+                  <p class="tags small">
+                    <a hreflang="uk" rel="alternate" class="language" lang="uk">🇺🇦
+                      <span class="lang">УКРАЇНСЬКА</span>
+                      <span class="hide">Translation is not available yet</span>
+                    </a> 
+                    <a hreflang="ru" rel="alternate" class="language" lang="ru">🇷🇺
+                      <span class="lang">РУССКИЙ</span>
+                      <span class="hide">Translation is not available yet</span>
+                    </a>
+                    <span class="language" lang="en">🇺🇸 ENGLISH</span>
+                  </p>
+                </section>
+                <section>
+                  <h3>Skills</h3>
+                  <p class="tags small">NEGOTIATING COUNTING REMODELING WRITING ACING SINGING REPORTING INCORPORATING SELLING ADVERTISING HOSTING COMPETING TWITTING PARENTING GAMBLING DATING SUING ORGANIZING FUNDING DEBATING ADVISING PRESBYTERIANING</p>
+                </section>
+                <section>
+                  <h3>Character</h3>
+                  <p class="tags small">ADJUSTED CALM AMBITIOUS COMPETITIVE SOCIABLE DIRECT HOSTILE CARELESS IGNORANT INQUISITIVE BOLD CONFIDENT MISCHIEVOUS CHARMING INTERESTING DARING COLORFUL LAZY SELF-PROMOTING</p>
+                </section>
+                <section>
+                  <h3>Likes&#x1f603;</h3>
+                  <p class="tags small">
+                    <a href="https://www.youtube.com/watch?v=u_aLESDql1U" rel="external">BILLIONS</a>
+                    FILET-O-FISH BIG MAC 
+                    <a href="https://www.youtube.com/watch?v=RDrfE9I8_hs" rel="external">CHINA</a> 
+                    QUARTER POUNDER DIET COKE TARIFFS BIBLE ARTOF DEAL PATRIOTS BEAUTIFUL MODELS GOLD REAL ESTATE WAR PROTESTERS CONSTRUCTION RUSSIANS BANKS SPORTS WOMEN MEXICO RED HAT KOREANS GOLF EVERYBODY
+                    <button id="darkslateblue" class="color darkslateblue">DARK BLUE</button>
+                  </p>
+                </section>
+                <section>
+                  <h3>Dislikes&#x1f61e;</h3>
+                  <p class="tags small">
+                  DOGS MEDIA CNN GERMANS MEXICANS IMMIGRANTS SHITHOLE COUNTRIES UNATTRACTIVE WOMEN BLACKS SUSHI HOT-DOGS ALCOHOL FRUIT CHRISTMAS PARTIES LIBERALS
+                  <button id="brown" class="color brown">BROWN</button>
+                  </p>
+                </section>
+                <section>
+                  <h3>Wants&#x1f97a;</h3>
+                  <p class="tags small bulleted">
+                    BE HEALTHY GROW A TREE BUILD TRUMP AIRPORT HAVE A TASTE DO A HARLEM SHAKE IN CONGRESS TO GOLF MORE OFTEN WIN ALL THE COURT SUITS
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <audio class="audio" controls="controls" autoplay="autoplay">
+      <source src="./assets/sounds/hello-everyone.mp3" type="audio/mp3">
+    </audio>
+    <script>
+      function switchToColor(color) {
+			  try {
+			  	document.querySelectorAll(".page").forEach(function(page) {
+			  		page.style.borderColor = color;
+			  	});
+			  	document.querySelectorAll(".avatar").forEach(function(avatar) {
+			  		avatar.contentDocument.getElementById("circle").setAttribute("fill", color);
+			  	});
+			  } catch (error) {}
+		  }
+      document.getElementById("darkslateblue").addEventListener("click", switchToColor.bind(this, "darkslateblue"));
+      document.getElementById("brown").addEventListener("click", switchToColor.bind(this, "brown"));
+      function replaceNoscript(noscript) {
+			  var parent = noscript.parentElement;
+			  Array.prototype.slice.call((new DOMParser()).parseFromString(noscript.textContent, "text/html").body.children).forEach(function(element) {
+			  	parent.insertBefore(element, noscript);
+			  });
+			  parent.removeChild(noscript);
+		  }
+      function callFuncOnCollection(collection, func) {
+			  Array.prototype.slice.call(collection).map(function (item) {
+			  	func(item);
+			  });
+		  }
+		  var childhoodPhotos = document.getElementById("president").getElementsByClassName("photos")[0];
+		  document.getElementById("resume").addEventListener("click", function() {
+		  	callFuncOnCollection(childhoodPhotos.getElementsByTagName("NOSCRIPT"), replaceNoscript);
+		  });
+		  if (window.location.hash === "#president") {
+		  	callFuncOnCollection(childhoodPhotos.getElementsByTagName("NOSCRIPT"), replaceNoscript);
+		  }
+    </script>
   </body>
 </html>
